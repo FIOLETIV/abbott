@@ -8,9 +8,19 @@ const activeBox = () => {
 }
 
 let swiper = new Swiper(".mySwiper", {
-    slidesPerView: '3',
     spaceBetween: 20,
-    // centeredSlides: true,
+    centeredSlides: false,
+    breakpoints: {
+        1440: {
+            slidesPerView: '3',
+            spaceBetween: 21,
+        },
+        840: {
+            slidesPerView: '2',
+            spaceBetween: 21,
+        },
+    }
+
 });
 
 // const hideBox = () => {

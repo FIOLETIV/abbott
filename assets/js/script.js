@@ -1,2 +1,2 @@
-let hiddenBox=document.getElementsByClassName("hidden");const activeBox=()=>{[...hiddenBox].map((e=>{e.classList.remove("hidden")}))};let swiper=new Swiper(".mySwiper",{slidesPerView:"3",spaceBetween:20});
+let hiddenBox=document.getElementsByClassName("hidden");const activeBox=()=>{[...hiddenBox].map((e=>{e.classList.remove("hidden")}))};let swiper=new Swiper(".mySwiper",{spaceBetween:20,centeredSlides:!1,breakpoints:{1440:{slidesPerView:"3",spaceBetween:21},840:{slidesPerView:"2",spaceBetween:21}}});
 //# sourceMappingURL=script.js.map
