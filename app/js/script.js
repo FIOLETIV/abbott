@@ -19,6 +19,11 @@ let swiper = new Swiper(".mySwiper", {
             slidesPerView: '2',
             spaceBetween: 21,
         },
+        200: {
+            direction: 'vertical',
+            slidesPerView: '2',
+            spaceBetween: 21,
+        },
     }
 
 });
