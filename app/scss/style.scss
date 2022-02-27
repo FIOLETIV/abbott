@@ -915,12 +915,13 @@ a {
 
 
     a {
-      margin-right: 10px;
+      margin-right: 20px;
     }
 
     &_wrapper {
 
       flex-wrap: nowrap;
+      justify-content: flex-start;
 
       &_search {
         img {
@@ -947,11 +948,11 @@ a {
 
 
     &_select {
-      display: grid;
-      grid-template-columns: repeat(3,auto);
       grid-column-gap: 10px;
       grid-row-gap: 10px;
-      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 400px;
 
       &_item {
         width: fit-content;
@@ -959,10 +960,14 @@ a {
         span {
           width: 195px;
         }
+
       }
 
+    }
 
-
+    &_box {
+      max-width: 534px;
+      max-height: 505px;
     }
 
 
@@ -983,6 +988,7 @@ a {
     }
 
     &_box {
+      max-width: 542px;
 
       &_content {
 
@@ -1004,7 +1010,7 @@ a {
 
         time {
           font-size: 16px;
-          margin-left: 53px;
+          margin-left: 37%;
         }
 
       }
@@ -1022,7 +1028,6 @@ a {
 
     &_box {
       max-height: 661px;
-      max-width: 335px;
 
       &_content img {
         width: 100%;
@@ -1041,7 +1046,7 @@ a {
     margin-bottom: 30px;
     .effectSlide {
       max-height: 380px;
-      max-width: 335px;
+      max-width: 525px;
     }
   }
 

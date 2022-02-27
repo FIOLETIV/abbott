@@ -8,20 +8,19 @@ const activeBox = () => {
 }
 
 let swiper = new Swiper(".mySwiper", {
-    spaceBetween: 20,
+    spaceBetween: 21,
+    direction: 'vertical',
+    slidesPerView: '2',
     centeredSlides: false,
     breakpoints: {
         1440: {
+            direction: "horizontal",
             slidesPerView: '3',
             spaceBetween: 21,
         },
-        840: {
+        601: {
             slidesPerView: '2',
-            spaceBetween: 21,
-        },
-        200: {
-            direction: 'vertical',
-            slidesPerView: '2',
+            direction: "horizontal",
             spaceBetween: 21,
         },
     }
