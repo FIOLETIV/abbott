@@ -704,6 +704,7 @@ a {
 }
 
 .reg {
+  display: none;
 
   max-width: 1440px;
   width: 100%;
@@ -712,7 +713,6 @@ a {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   color: #343A40;
   opacity: 0.5;
