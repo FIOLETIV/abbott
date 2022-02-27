@@ -631,7 +631,7 @@ a {
   }
 
   .effectSize {
-    width: 100%;
+    width: 1404px;
   }
 
 }
@@ -903,10 +903,10 @@ a {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
 
   .container {
-    max-width: 335px;
+    max-width: 550px;
     margin: 0 20px;
     padding: 0;
   }
